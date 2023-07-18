@@ -1,0 +1,10 @@
+<configs>
+
+	<set xpath="/windows/window[@name='windowTargetBar']/@visibility">always</set>
+	<set xpath="/windows/window[@name='windowTargetBar']//rect[1]/@height">6</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[1]/sprite[@depth='1']/@color">0,0,0,200</set>
+	<remove xpath="/windows/window[@name='windowTargetBar']/rect[1]/label"></remove>
+	
+	
+</configs>
+
